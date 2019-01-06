@@ -5,10 +5,7 @@
 <body>
 
 <h1>Servis Modülü</h1>
-<hr noshade>
 <h3>KURULUM</h3>
-
-<hr width=100>
 <P>Servis modülünü eklemek için portal klasöründeki composer.json dosyasına giderek repositories kısmına aşağıdaki kod parçasını eklemeliyiz..</p>
 <pre>
 <code>
@@ -23,5 +20,21 @@
                 ]
 </code>
 </pre>
+<p>Migration için komut:</p>
+<pre>
+<code>
+"  php yii migrate --migrationPath=@vendor/kouosl/portal-servis/migrations  "
+</code>
+</pre>
+
+<h3>ADRESLER</h3>
+<h6>MODÜL:</h6>
+http://portal.kouosl/servis
+<h6>MODEL:</h6>
+http://portal.kouosl/servis/servis
+<h3>SAYFA HAKKINDA</h3>
+  <p> Panel açıldığında servise kayıt olmak isteyenler için kayıt olma bölümü bulunmaktadır. 
+<p>Aynı zamanda servisin saat ve durak bilgileri listelenir.
+    <p>Yönetici kısmında kayıtlı kişiler silinebilir, servis saat ve durak bilgilerinde değişiklikler yapılabilir.
 </body>
 </html>

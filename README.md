@@ -26,7 +26,13 @@
 "  php yii migrate --migrationPath=@vendor/kouosl/portal-servis/migrations  "
 </code>
 </pre>
-
+<p>Bu adımlardan sonra komut satırında portal dizinine giderek vagrant up ile makineyi ayağa kaldırdıktan sonra ssh ile bağlantı kurmalıyız. Buradan cd /var/www/portal dizinine giderek aşağıdaki komutu yazmalıyız.
+    <pre>
+<code>
+composer update
+</code>
+</pre>
+    
 <h3>ADRESLER</h3>
 <h6>MODÜL:</h6>
 http://portal.kouosl/servis
